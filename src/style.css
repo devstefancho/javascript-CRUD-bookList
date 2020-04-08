@@ -1,0 +1,47 @@
+:root {
+  --nav-color: #9482ff;
+  --nav-text: rgb(216, 214, 214);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: var(--nav-color);
+  height: 8vh;
+}
+
+#home-logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2vw;
+}
+
+.navbar ul,
+.nav-menu-align {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#home-logo a {
+  text-decoration: none;
+  color: var(--nav-text);
+}
+
+.nav-menu li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--nav-text);
+}
+
+.form-section {
+  display: grid;
+  height: 50vh;
+  width: auto;
+  grid-template-columns: 50% 50%;
+}
+
+article {
+  background-color: teal;
+  height: 50vh;
+  width: auto;
+}
