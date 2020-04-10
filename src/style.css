@@ -9,6 +9,18 @@
   height: 8vh;
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90vw;
+  border-collapse: collapse;
+}
+
+table tr {
+  border: thistle 1px solid;
+}
+
 #home-logo {
   margin-top: auto;
   margin-bottom: auto;
@@ -42,6 +54,7 @@
 
 article {
   background-color: teal;
+  padding-top: 10vh;
   height: 50vh;
   width: auto;
 }
