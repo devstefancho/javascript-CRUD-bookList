@@ -22,30 +22,28 @@
 
     <!-- list 토글 메뉴 & write 버튼-->
     <article>
-      <table>
-        <tr>
-          <section id="list-title">
-            <th>Title</th>
-            <th>Description</th>
-            <th>Date</th>
-          </section>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-        </tr>
+      <table id="table">
+        <thead>
+          <tr>
+            <section id="list-title">
+              <th>Title</th>
+              <th>Description</th>
+              <th>Date</th>
+            </section>
+          </tr>
+        </thead>
+        <tbody></tbody>
       </table>
     </article>
 
     <!-- writing Form text -->
 
     <section class="form-section">
-      <form action="" method="post">
-        <input type="text" placeholder="title" value="" />
+      <form id="myform" action="" method="post">
+        <input type="text" id="title" placeholder="title" value="" />
         <textarea
           name="description"
-          id=""
+          id="desc"
           cols="50"
           rows="10"
           placeholder="write something new"

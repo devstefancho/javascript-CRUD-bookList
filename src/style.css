@@ -2,6 +2,11 @@
   --nav-color: #9482ff;
   --nav-text: rgb(216, 214, 214);
 }
+
+::selection {
+  background-color: yellow;
+  color: black;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -19,6 +24,10 @@ table {
 
 table tr {
   border: thistle 1px solid;
+}
+
+table td {
+  text-align: center;
 }
 
 #home-logo {
@@ -53,7 +62,7 @@ table tr {
 }
 
 article {
-  background-color: teal;
+  /* background-color: teal; */
   padding-top: 10vh;
   height: 50vh;
   width: auto;
